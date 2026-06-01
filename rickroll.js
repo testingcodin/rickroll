@@ -1,3 +1,4 @@
+
 function rickroll() {
     document.getElementById('content').innerHTML = 'get rickrolled';
     var rickroll =  document.getElementById('rickroll');
@@ -8,3 +9,5 @@ function rickroll() {
     player.setMuted(false)
     player.setVolume(1);
 }
+const button = document.querySelector("button");
+button.addEventListener("click", rickroll)
