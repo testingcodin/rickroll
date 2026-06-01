@@ -9,5 +9,5 @@ function rickroll() {
     player.setMuted(false)
     player.setVolume(1);
 }
-const button = document.querySelector("button");
+var button = document.getElementById("reload-button");
 button.addEventListener("click", rickroll)
